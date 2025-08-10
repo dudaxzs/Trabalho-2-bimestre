@@ -30,7 +30,7 @@ figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time
   font-style: normal;
 }
 
-/* Fonte aplicada apenas aos títulos */
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Starborn', sans-serif;
 }
@@ -51,7 +51,7 @@ body {
   padding: 1.25rem 0;
 }
 
-/* Header / nav */
+
 .site-header {
   background: linear-gradient(0deg, rgba(255,255,255,0.85), rgba(255,255,255,0.9));
   border-bottom: 2px solid rgba(0,0,0,0.06);
@@ -75,7 +75,7 @@ body {
 }
 .brand a { text-decoration: none; color: inherit; }
 
-/* nav links */
+
 .nav-list {
   list-style: none;
   display: flex;
@@ -164,7 +164,7 @@ body {
 .card-topico h4 { font-size: 1.05rem; color: var(--accent-dark); margin-bottom: 0.25rem; }
 .card-topico p { color: var(--muted); font-size: 0.95rem; }
 
-/* artigo de tópico */
+
 .article-wrap {
   margin-top: 1rem;
   background: rgba(255,255,255,0.9);
@@ -187,7 +187,7 @@ body {
 .article-content h2 { color: var(--accent-dark); margin-bottom: 0.5rem; }
 .article-content p { color: var(--muted); }
 
-/* footer */
+
 .site-footer {
   margin-top: 2rem;
   background: linear-gradient(180deg, rgba(214, 102, 120, 0.95), rgba(194, 120, 133, 0.4));
@@ -203,7 +203,7 @@ body {
 .footer-inner p { color: var(--muted); font-size: 0.95rem; }
 .footer-nav { list-style:none; display:flex; gap:0.6rem; }
 
-/* botão voltar */
+
 .btn-back {
   display:inline-block;
   margin-top: 0.8rem;
@@ -216,10 +216,10 @@ body {
   font-weight:700;
 }
 
-/* acessibilidade foco */
+
 a:focus { outline: 3px solid rgba(224,111,146,0.14); outline-offset: 3px; }
 
-/* responsividade */
+
 @media (max-width: 920px) {
   .hero { grid-template-columns: 1fr; text-align: center; }
   .hero .cover { max-width: 280px; margin: 0 auto; }
